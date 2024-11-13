@@ -18,8 +18,8 @@ jobs:
           dotnet-version: 8.0
 
       - name: dotnet test
-        run: dotnet test --confiration Release
+        run: dotnet test --configuration Release
       
       - name: dotnet publish
-        run: dotnet publish src/GitHubActionsDotNet.Api/GitHubActionsDotNet.Api.csproj --confiration Release -o artifacts
+        run: dotnet publish src/GitHubActionsDotNet.Api/GitHubActionsDotNet.Api.csproj --configuration Release -o artifacts
 
